@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import axios from 'axios';
 import { ChefHat, ShieldCheck, ShieldAlert, AlertCircle, Loader2, Sparkles } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8081/api/safebite';
+const API_BASE = 'https://safebite-backend-lri4.onrender.com/api/safebite';
 
 function App() {
   const [menu, setMenu] = useState([]);
